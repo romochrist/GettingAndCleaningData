@@ -115,5 +115,5 @@ This will create a file named *__tidy_data.txt__* on the current working directo
 To read the tidy data set use the following code:
 
 ```R
-    read.table("tidy_data.txt", check.names = FALSE)
+    read.table("tidy_data.txt", check.names = FALSE, , header = TRUE)
 ```
