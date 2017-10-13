@@ -97,7 +97,7 @@ Finally the data set is written to a file named *__tidy_data.txt__*.
 
 ```R
     # writing to a file
-    write.table(summarizedData, file = "tidy_data.txt")
+    write.table(summarizedData, file = "tidy_data.txt", row.names = FALSE)
 ```
 
 # Running the script
